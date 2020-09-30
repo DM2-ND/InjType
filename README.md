@@ -26,7 +26,7 @@ We use Texar Torch's BLEU score as one of the evaluation metrics.
 @article{dong2020inject,
   title={Injecting Entity Types into Entity-Guided Text Generation},
   author={Xiangyu Dong, Wenhao Yu, Chenguang Zhu, Meng Jiang},
-  journal={arXiv preprint arXiv:XXXX.XXXXX},
+  journal={arXiv preprint arXiv:2009.13401},
   year={2020}
 }
 ```
