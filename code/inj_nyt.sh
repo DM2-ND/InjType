@@ -33,17 +33,17 @@ python train.py \
        -gpus 0 \
        -curriculum 0 \
        -extra_shuffle \
-       -start_eval_batch 198 \
-       -eval_per_batch 198 \
+       -start_eval_batch 2000 \
+       -eval_per_batch 500 \
        -halve_lr_bad_count 3 \
        -seed 12345 \
        -cuda_seed 12345 \
        -log_interval 10 \
-       -train_src ${DATAHOME}/train/nyt_type_train_nocopy.txt.source.txt \
-       -train_guide_src ${DATAHOME}/train/nyt_mention_train_nocopy.txt.source.txt \
-       -src_vocab ${DATAHOME}/train/nyt_type_vocab.txt.20k \
+       -train_src ${DATAHOME}/train/nyt_type_train.txt.source.txt \
+       -train_guide_src ${DATAHOME}/train/nyt_mention_train.txt.source.txt \
+       -src_vocab ${DATAHOME}/train/nyt_type_vocab_src.txt.20k \
        -guide_src_vocab ${DATAHOME}/train/nyt_mention_vocab_src.txt.20k \
-       -train_tgt ${DATAHOME}/train/nyt_type_train_nocopy.txt.target.txt \
+       -train_tgt ${DATAHOME}/train/nyt_type_train.txt.target.txt \
        -tgt_vocab ${DATAHOME}/train/nyt_type_vocab_src.txt.20k \
        -dev_input_src ${DATAHOME}/dev/nyt_type_dev.txt.shuffle.dev.source.txt \
        -dev_guide_src ${DATAHOME}/dev/nyt_mention_dev.txt.shuffle.dev.source.txt \

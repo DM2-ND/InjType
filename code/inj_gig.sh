@@ -32,8 +32,8 @@ python main.py \
        -gpus 0 \
        -curriculum 0 \
        -extra_shuffle \
-       -start_eval_batch 140 \
-       -eval_per_batch 140 \
+       -start_eval_batch 2000 \
+       -eval_per_batch 500 \
        -halve_lr_bad_count 3 \
        -seed 12345 \
        -cuda_seed 12345 \
