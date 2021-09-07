@@ -14,11 +14,11 @@ To prepare the dataset, run `python dataset/dataloader.py` in the top folder dir
 ### Run the model
 To run the model with Gigword Dataset <br>
 (1) `NQG_HOME=/home_dir_replace_with_yours/InjType` <br>
-(2) `bash $NQG_HOME/code/inj_gig.sh $NQG_HOME/dataset $NQG_HOME/code` <br>
+(2) `bash $NQG_HOME/codes/inj_gig.sh $NQG_HOME/dataset $NQG_HOME/codes` <br>
 
 To run the model with NYT Dataset <br>
 (1) `NQG_HOME=/home_dir_replace_with_yours/InjType` <br>
-(2) `bash $NQG_HOME/code/inj_nyt.sh $NQG_HOME/dataset $NQG_HOME/code`
+(2) `bash $NQG_HOME/codes/inj_nyt.sh $NQG_HOME/dataset $NQG_HOME/codes`
 
 ### To evaluate the model
 We use [Texar-torch BLEU](https://github.com/asyml/texar-pytorch) score and [PyPI ROUGE](https://pypi.org/project/rouge/) to evaluate model performance.
@@ -40,4 +40,4 @@ This code was based in part on the source code of [NQG](https://github.com/magic
 
 ### Contact
 If you have any question or suggestion, please send email to: \
-Xiangyu Dong (```xdong2ps@gmail.com```) or Wenhao Yu (```wyu1@nd.edu```)gpu
+Xiangyu Dong (```xdong2ps@gmail.com```) or Wenhao Yu (```wyu1@nd.edu```)
