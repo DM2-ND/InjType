@@ -4,7 +4,7 @@ set -x
 
 CODEHOME=${@:(-1):1}
 
-DATASET=gigawords
+DATASET=gig
 NLU_WEIGHT=2.0
 CLS_WEIGHT=2.0
 
