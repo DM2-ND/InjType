@@ -2,7 +2,7 @@
 
 This is the implementation of **EMNLP 2021** paper **[Injecting Entity Types into Entity-Guided Text Generation](https://arxiv.org/abs/2009.13401)**.
 
-In this work, we aim to enhance the role of entity in NLG model to help generate sequence accurately. Specifically, we develop a novel NLG model to produce a target sequence based on a given list of entities. Our model has a multi-step decoder that injects the entity types into the process of entity mention generation. Experiments on two public news datasets (i.e., Gigawords and NYT) demonstrate type injection performs better than existing type embedding concatenation baselines. 
+In this work, we aim to enhance the role of entity in NLG model to help generate sequence accurately. Specifically, we develop a novel NLG model to produce a target sequence based on a given list of entities. Our model has a multi-step decoder that injects the entity types into the process of entity mention generation. Experiments on Gigawords and NYT demonstrate type injection performs better than existing type concatenation baselines. 
 
 
 ### Prerequisites
