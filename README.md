@@ -7,7 +7,7 @@ In this work, we aim to enhance the role of entity in NLG model to help generate
 
 ### Prerequisites
 
-**1. Using pip:** The recommended way to install the required packages is using pip and the provided `requirements.txt` file. Create the environment by running the following command: `pip install -r requirements.txt`
+**1. Using pip:** The first way is to install the required packages in `requirements.txt` file by using pip. Create the environment by running the following command: `pip install -r requirements.txt`
 
 **2. Using docker:** The second way is to pull our docker image on the [dockerhub](https://hub.docker.com/). Download the docker image by using the following command: `docker pull wenhaoyu97/injtype:gen1.0`
 
