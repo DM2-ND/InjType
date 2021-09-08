@@ -123,3 +123,5 @@ for dataset in ['gig_','nyt_']:
             wordDict.write('<blank> 0\n<unk> 1\n<s> 2\n</s> 3\n<ss> 4\nDIGIT 5\nPERSON 6\nORGANIZATION 7\nLOCATION 8\nLOCATIONCOUNTRY 9\nYEAR 10\nMONTH 11\nDIGITRANK 12\nDIGITUNIT 13\nTIMEUNIT 14\nLENGTHUNIT 15\nDAY 16\nWEEKDAY 17\n')
             for idx, word in enumerate(Dict):
                 wordDict.write('{} {} {}\n'.format(word[0], idx + 18, word[1]))
+
+
