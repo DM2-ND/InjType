@@ -236,10 +236,10 @@ def evalModel(model, translator, evalData, mode):
     
     if mode == 'dev':
         tfn = opt.dev_guide_src
-        rfn = opt.dev_ref
+        rfn = opt.dev_guide_tgt
     elif mode == 'test':
         tfn = opt.test_guide_src
-        rfn = opt.test_ref
+        rfn = opt.test_guide_tgt
 
     metrics = {'#batch': totalBatchCount}
     metrics.update(eval_bleu_rouge(filepath=ofn, typepath=tfn, refpath=rfn))
